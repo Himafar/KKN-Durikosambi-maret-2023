@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tanaman-tanaman</title>
+	<style>
+		/* Style untuk body */
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #fafafa;
+			font-family: sans-serif;
+		}
+
+		/* Style untuk header */
+		header {
+			background-color: #66bb6a;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 36px;
+			font-weight: bold;
+			box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		/* Style untuk navigasi */
+		nav {
+			background-color: #eee;
+			padding: 10px;
+			box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		nav ul li {
+			margin-right: 20px;
+		}
+
+		nav ul li:last-child {
+			margin-right: 0;
+		}
+
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: all 0.3s ease;
+		}
+
+		nav ul li a:hover {
+			color: #66bb6a;
+		}
+
+		/* Style untuk section */
+		section {
+			padding: 40px;
+			background-color: #fff;
+			margin: 20px;
+			box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		section h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+			text-align: center;
+			color: #66bb6a;
+		}
+
+		section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+
+		section img {
+			display: block;
+			margin: auto;
+			max-width: 100%;
+			height: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		/* Style untuk footer */
+		footer {
+			background-color: #66bb6a;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		footer p {
+			font-size: 14px;
+			margin: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<header>Tanaman-tanaman</header>
+	<nav>
+		<ul>
+			<li><a
